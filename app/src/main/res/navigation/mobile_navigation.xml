@@ -12,14 +12,27 @@
         tools:layout="@layout/fragment_home" />
 
     <fragment
-        android:id="@+id/nav_gallery"
-        android:name="com.example.app.ui.gallery.GalleryFragment"
-        android:label="@string/menu_gallery"
-        tools:layout="@layout/fragment_gallery" />
+        android:id="@+id/nav_map"
+        android:name="com.example.app.ui.map.MapFragment"
+        android:label="@string/menu_map"
+        tools:layout="@layout/fragment_map" />
 
     <fragment
-        android:id="@+id/nav_slideshow"
-        android:name="com.example.app.ui.slideshow.SlideshowFragment"
-        android:label="@string/menu_slideshow"
-        tools:layout="@layout/fragment_slideshow" />
+        android:id="@+id/nav_restaurants"
+        android:name="com.example.app.ui.restaurants.RestaurantFragment"
+        android:label="@string/menu_restaurants"
+        tools:layout="@layout/fragment_restaurants" />
+
+    <fragment
+        android:id="@+id/nav_services"
+        android:name="com.example.app.ui.services.ServicesFragment"
+        android:label="@string/menu_services"
+        tools:layout="@layout/fragment_services" />
+
+    <fragment
+        android:id="@+id/nav_contact"
+        android:name="com.example.app.ui.contacts.ContactsFragment"
+        android:label="@string/menu_contact"
+        tools:layout="@layout/fragment_contacts" />
+
 </navigation>
