@@ -3,11 +3,9 @@ package com.example.app.ui.restaurants
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.annotation.LayoutRes
 import androidx.recyclerview.widget.RecyclerView
 import com.example.app.databinding.ItemBinding
-import com.example.app.ui.restaurants.CellClickListener
 
 
 class RestaurantAdapter(val items: Array<Restaurant>, var listener : CellClickListener) : RecyclerView.Adapter<RestaurantAdapter.ViewHolder>() {

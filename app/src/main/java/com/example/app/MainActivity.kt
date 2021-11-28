@@ -2,7 +2,6 @@ package com.example.app
 
 import android.os.Bundle
 import android.view.Menu
-import android.widget.Button
 import com.google.android.material.snackbar.Snackbar
 import com.google.android.material.navigation.NavigationView
 import androidx.navigation.findNavController
@@ -13,8 +12,6 @@ import androidx.navigation.ui.setupWithNavController
 import androidx.drawerlayout.widget.DrawerLayout
 import androidx.appcompat.app.AppCompatActivity
 import com.example.app.databinding.ActivityMainBinding
-import com.example.app.ui.home.HomeFragment
-import com.example.app.ui.restaurants.RestaurantFragment
 
 class MainActivity : AppCompatActivity() {
 
