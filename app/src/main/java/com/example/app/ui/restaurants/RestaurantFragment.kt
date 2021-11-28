@@ -24,18 +24,18 @@ class RestaurantFragment : Fragment(), CellClickListener {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        // Inflate the layout for this fragmen t
+        // Inflate the layout for this fragment
         return inflater.inflate(R.layout.fragment_restaurants, container, false)
     }
 
     val items = arrayOf(
-        Restaurant(R.drawable.ic_menu_contact,"France","Nice","23/09/2021"),
-        Restaurant(R.drawable.ic_menu_contact,"France","Nice","23/09/2021"),
-        Restaurant(R.drawable.ic_menu_contact,"France","Nice","23/09/2021"),
-        Restaurant(R.drawable.ic_menu_contact,"France","Nice","23/09/2021"),
-        Restaurant(R.drawable.ic_menu_contact,"France","Nice","23/09/2021"),
-        Restaurant(R.drawable.ic_menu_contact,"France","Nice","23/09/2021"),
-        Restaurant(R.drawable.ic_menu_contact,"France","Nice","23/09/2021"),
+        Restaurant(R.drawable.guy_savoy,"Guy Savoy","12:00-14:30, 19h00-23h00"),
+        Restaurant(R.drawable.alain_ducasse,"Alain Ducasse au Plaza Athénée","11h00-15h30, 18h00-23h30"),
+        Restaurant(R.drawable.vague_or,"La Vague d’Or","08h00-18h00"),
+        Restaurant(R.drawable.ambroisie,"L'Ambroisie","08h00-15h00"),
+        Restaurant(R.drawable.auberge_vieux_puit,"L’Auberge du Vieux Puits","10h00-23h00"),
+        Restaurant(R.drawable.assiete_champenoise,"L’Assiette Champenoise","24h/24"),
+        Restaurant(R.drawable.arpege," L’Arpège", "12h00-22h30"),
     )
 
     override fun onViewCreated(itemView: View, savedInstanceState: Bundle?) {
@@ -46,7 +46,7 @@ class RestaurantFragment : Fragment(), CellClickListener {
         }
     }
 
-    override fun onCellClickListener(nom: String) {
-        Toast.makeText(activity, "Restaurant : $nom", Toast.LENGTH_SHORT).show()
+    override fun onCellClickListener(nom: String, horaire: String) {
+        Toast.makeText(activity, "Restaurant : $nom\nHoraire : $horaire", Toast.LENGTH_SHORT).show()
     }
 }

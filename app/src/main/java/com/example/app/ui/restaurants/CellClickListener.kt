@@ -1,5 +1,5 @@
 package com.example.app.ui.restaurants
 
 interface CellClickListener {
-    fun onCellClickListener(lieu: String)
+    fun onCellClickListener(nom: String, horaire: String)
 }

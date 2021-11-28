@@ -18,7 +18,6 @@ class RestaurantAdapter(val items: Array<Restaurant>, var listener : CellClickLi
             with(restaurant) {
                 binding.image.setImageResource(image)
                 binding.nom.text =  "$nom"
-                binding.lieu.text = "$lieu"
                 binding.horaire.text = "$horaire"
             }
         }
@@ -31,7 +30,7 @@ class RestaurantAdapter(val items: Array<Restaurant>, var listener : CellClickLi
     override fun onBindViewHolder(holder: ViewHolder, position: Int) {
         holder.bindAndVersion(items[position])
         holder.itemView.setOnClickListener {
-            listener.onCellClickListener(items[position].nom)
+            listener.onCellClickListener(items[position].nom, items[position].horaire)
         }
     }
 

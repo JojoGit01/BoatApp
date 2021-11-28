@@ -8,6 +8,11 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:text="Hello" />
+        android:gravity="center_horizontal"
+        android:textAlignment="center"
+        android:text="@string/menu_services"
+        android:textSize="30sp"
+        android:textStyle="italic"
+        android:typeface="normal" />
 
 </FrameLayout>
