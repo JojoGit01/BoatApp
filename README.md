@@ -22,7 +22,7 @@ Créateur : DI MARTINO Jonathan
 
 <!-- TABLE OF CONTENTS -->
 <details close>
-  <summary>Table of Contents</summary>
+  <summary>Table des matières</summary>
   <ul>
     <li>
       <a href="#pour-commencer">Pour commencer</a>
@@ -66,7 +66,7 @@ Installer [Android Studio](https://developer.android.com/studio)
 
 ## Convention de nommage
 
-See naming convention of [Kotlin for Android project](https://gitlab.com/chillcoding-at-the-beach/kotlin-for-android/-/wikis/Naming-Convention).
+Voir convention de nommage de [Kotlin for Android project](https://gitlab.com/chillcoding-at-the-beach/kotlin-for-android/-/wikis/Naming-Convention).
 
 ## License
 
